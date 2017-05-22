@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WineModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Red">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FixedAcidity" Type="real" Nullable="false" />
+    <Property Name="VolatileAcidity" Type="real" Nullable="false" />
+    <Property Name="CitricAcid" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ResidualSugar" Type="real" Nullable="false" />
+    <Property Name="Chlorides" Type="real" Nullable="false" />
+    <Property Name="FreeSulfurDioxide" Type="real" Nullable="false" />
+    <Property Name="TotalSulfurDioxide" Type="real" Nullable="false" />
+    <Property Name="Density" Type="real" Nullable="false" />
+    <Property Name="PH" Type="real" Nullable="false" />
+    <Property Name="Sulphates" Type="real" Nullable="false" />
+    <Property Name="Alcohol" Type="real" Nullable="false" />
+    <Property Name="Quality" Type="real" Nullable="false" />
+    <Property Name="IsTest" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="White">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FixedAcidity" Type="real" Nullable="false" />
+    <Property Name="VolatileAcidity" Type="real" Nullable="false" />
+    <Property Name="CitricAcid" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ResidualSugar" Type="real" Nullable="false" />
+    <Property Name="Chlorides" Type="real" Nullable="false" />
+    <Property Name="FreeSulfurDioxide" Type="real" Nullable="false" />
+    <Property Name="TotalSulfurDioxide" Type="real" Nullable="false" />
+    <Property Name="Density" Type="real" Nullable="false" />
+    <Property Name="PH" Type="real" Nullable="false" />
+    <Property Name="Sulphates" Type="real" Nullable="false" />
+    <Property Name="Alcohol" Type="real" Nullable="false" />
+    <Property Name="Quality" Type="real" Nullable="false" />
+    <Property Name="IsTest" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="WineModelStoreContainer">
+    <EntitySet Name="Red" EntityType="Self.Red" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="White" EntityType="Self.White" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

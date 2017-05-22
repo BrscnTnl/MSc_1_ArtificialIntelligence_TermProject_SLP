@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WineModelStoreContainer" CdmEntityContainer="WineEntities">
+    <EntitySetMapping Name="Red">
+      <EntityTypeMapping TypeName="WineModel.Red">
+        <MappingFragment StoreEntitySet="Red">
+          <ScalarProperty Name="IsTest" ColumnName="IsTest" />
+          <ScalarProperty Name="Quality" ColumnName="Quality" />
+          <ScalarProperty Name="Alcohol" ColumnName="Alcohol" />
+          <ScalarProperty Name="Sulphates" ColumnName="Sulphates" />
+          <ScalarProperty Name="PH" ColumnName="PH" />
+          <ScalarProperty Name="Density" ColumnName="Density" />
+          <ScalarProperty Name="TotalSulfurDioxide" ColumnName="TotalSulfurDioxide" />
+          <ScalarProperty Name="FreeSulfurDioxide" ColumnName="FreeSulfurDioxide" />
+          <ScalarProperty Name="Chlorides" ColumnName="Chlorides" />
+          <ScalarProperty Name="ResidualSugar" ColumnName="ResidualSugar" />
+          <ScalarProperty Name="CitricAcid" ColumnName="CitricAcid" />
+          <ScalarProperty Name="VolatileAcidity" ColumnName="VolatileAcidity" />
+          <ScalarProperty Name="FixedAcidity" ColumnName="FixedAcidity" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="White">
+      <EntityTypeMapping TypeName="WineModel.White">
+        <MappingFragment StoreEntitySet="White">
+          <ScalarProperty Name="IsTest" ColumnName="IsTest" />
+          <ScalarProperty Name="Quality" ColumnName="Quality" />
+          <ScalarProperty Name="Alcohol" ColumnName="Alcohol" />
+          <ScalarProperty Name="Sulphates" ColumnName="Sulphates" />
+          <ScalarProperty Name="PH" ColumnName="PH" />
+          <ScalarProperty Name="Density" ColumnName="Density" />
+          <ScalarProperty Name="TotalSulfurDioxide" ColumnName="TotalSulfurDioxide" />
+          <ScalarProperty Name="FreeSulfurDioxide" ColumnName="FreeSulfurDioxide" />
+          <ScalarProperty Name="Chlorides" ColumnName="Chlorides" />
+          <ScalarProperty Name="ResidualSugar" ColumnName="ResidualSugar" />
+          <ScalarProperty Name="CitricAcid" ColumnName="CitricAcid" />
+          <ScalarProperty Name="VolatileAcidity" ColumnName="VolatileAcidity" />
+          <ScalarProperty Name="FixedAcidity" ColumnName="FixedAcidity" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

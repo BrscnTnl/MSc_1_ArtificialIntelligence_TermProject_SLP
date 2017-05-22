@@ -1,0 +1,16 @@
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\bin\Debug\VineExpert_V2.exe.config
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\bin\Debug\VineExpert_V2.exe
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\bin\Debug\VineExpert_V2.pdb
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\bin\Debug\EntityFramework.dll
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\bin\Debug\EntityFramework.xml
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\obj\Debug\VineExpert_V2.csprojResolveAssemblyReference.cache
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\obj\Debug\VineExpert_V2.Form1.resources
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\obj\Debug\VineExpert_V2.Properties.Resources.resources
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\obj\Debug\VineExpert_V2.csproj.GenerateResource.Cache
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\obj\Debug\VineExpert_V2.exe
+D:\Yüksek Lisans\VineExpert\VineExpert_V2\VineExpert_V2\obj\Debug\VineExpert_V2.pdb
+D:\Yüksek Lisans\VineExpert\VineExpert_V2 - KNN\VineExpert_V2\bin\Debug\VineExpert_V2.exe.config
+D:\Yüksek Lisans\VineExpert\VineExpert_V2 - KNN\VineExpert_V2\obj\Debug\VineExpert_V2.exe
+D:\Yüksek Lisans\VineExpert\VineExpert_V2 - KNN\VineExpert_V2\obj\Debug\VineExpert_V2.pdb
